@@ -42,3 +42,23 @@
 
 ## 📁 Estrutura do Projeto
 
+│
+├── backend/
+│ ├── server.js # Servidor Node/Express
+│ ├── models/ # Modelos do banco (Mongoose)
+│ ├── routes/ # Rotas da API REST
+│ ├── controllers/ # Lógica de CRUD
+│ ├── .env # Variáveis de ambiente
+│ └── package.json
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/ # Componentes React
+│ │ ├── pages/ # Páginas principais
+│ │ ├── services/ # Requisições HTTP (Axios)
+│ │ ├── App.jsx # Estrutura principal do app
+│ │ └── index.js
+│ └── package.json
+│
+└── README.md
+
